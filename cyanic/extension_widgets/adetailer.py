@@ -14,14 +14,16 @@ class ADetailerExtension(CyanicWidget):
         
         self.models = [ # Assuming these are standard with the install... there's no API to check what's available
             'face_yolov8n.pt',
+            'face_yolov8n_v2.pt',
             'face_yolov8s.pt',
+            'Anzhc Face seg 1024 v2 y8n.pt'
             'hand_yolov8n.pt',
             'person_yolov8n-seg.pt',
             'person_yolov8s-seg.pt',
             'mediapipe_face_full',
             'mediapipe_face_short',
             'mediapipe_face_mesh',
-            'mediapipe_face_mesh_eyes_only',
+            'mediapipe_face_mesh_eyes_only'
         ]
         self.cyanic_widgets = []
         self.init_ui()
